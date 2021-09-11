@@ -5,8 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 /**Modulos */
-import { ElementsModule } from './elements/elements.module';
-import { CollectionsModule } from './collections/collections.module';
+
 import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 
@@ -17,9 +16,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
     NotFoundComponent
   ],
   imports: [
-    BrowserModule,
-    ElementsModule, 
-    CollectionsModule,
+    BrowserModule, 
     AppRoutingModule
   ],
   providers: [],
